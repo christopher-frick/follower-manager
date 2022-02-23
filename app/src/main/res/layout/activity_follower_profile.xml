@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:orientation="vertical"
+    tools:context=".activities.FollowerProfileActivity">
+
+    <!-- TOP BAR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        android:gravity="center_vertical"
+        android:paddingRight="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="goBack"
+            android:paddingHorizontal="25dp"
+            android:src="@drawable/ic_arrow_left" />
+
+        <TextView
+            android:id="@+id/followers_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_of"
+
+            android:textAppearance="@style/your_account"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangule_dashboard_blue">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/follower_profile_image_container"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="75dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/follower_profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="refresh"
+                android:src="@drawable/ic_launcher_background" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/followers_following_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/follower_profile_image_container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="158dp"
+                android:layout_height="77dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/dashboard_menu_rectangule_top">
+
+                <TextView
+                    android:id="@+id/user_followers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal|top"
+                    android:text="..."
+                    android:textColor="#0070FF"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/followers"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/followers"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="@+id/user_followers"
+                    app:layout_constraintStart_toStartOf="@+id/user_followers"
+                    app:layout_constraintTop_toBottomOf="@+id/user_followers" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="158dp"
+                android:layout_height="77dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/dashboard_menu_rectangule_top">
+
+                <TextView
+                    android:id="@+id/user_following"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal|top"
+                    android:text="..."
+                    android:textColor="#0070FF"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/follwing"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/following"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="@+id/user_following"
+                    app:layout_constraintStart_toStartOf="@+id/user_following"
+                    app:layout_constraintTop_toBottomOf="@+id/user_following" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/follower_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="10dp"
+
+        android:backgroundTint="@color/green"
+        android:text="@string/follow" />
+
+</LinearLayout>

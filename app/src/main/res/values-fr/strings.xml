@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FollowerManager</string>
+    <string name="your_account">FR 404 Not Found</string>
+    <string name="follower_manager">FR 404 Not Found</string>
+    <string name="connect_you">FR 404 Not Found</string>
+    <string name="username">FR 404 Not Found</string>
+    <string name="password">FR 404 Not Found</string>
+    <string name="connect">FR 404 Not Found</string>
+    <string name="follow">FR 404 Not Found</string>
+    <string name="unfollow">FR 404 Not Found</string>
+    <string name="list_of_user_doesnt_follow_back">FR 404 Not Found</string>
+    <string name="list_of_follower_doesnt_follow_back">FR 404 Not Found</string>
+    <string name="list_of_gained_followers">FR 404 Not Found</string>
+    <string name="list_of_lost_followers">FR 404 Not Found</string>
+    <string name="profile_of">FR 404 Not Found</string>
+    <string name="followers">FR 404 Not Found</string>
+    <string name="following">FR 404 Not Found</string>
+    <string name="gained_followers">FR 404 Not Found</string>
+    <string name="lost_followers">FR 404 Not Found</string>
+    <string name="followers_you_dont_follow_back">FR 404 Not Found</string>
+    <string name="follower_dont_follow_you_back">FR 404 Not Found</string>
+    <string name="advices_for_your_account">FR 404 Not Found</string>
+    <string name="disconnect">FR 404 Not Found</string>
+    <string name="bugs_questions_feedback">FR 404 Not Found</string>
+    <string name="advices">FR 404 Not Found</string>
+    <string name="login_with_instagram">FR 404 Not Found</string>
+    <string name="server_timeout">FR 404 Not Found</string>
+    <string name="server_timeout_refresh">FR 404 Not Found</string>
+    <string name="wrong_info">FR 404 Not Found</string>
+    <string name="refreshing">FR 404 Not Found</string>
+</resources>

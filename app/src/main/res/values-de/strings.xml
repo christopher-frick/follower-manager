@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FollowerManager</string>
+    <string name="your_account">DE 404 Not Found</string>
+    <string name="connect_you">DE 404 Not Found</string>
+    <string name="username">DE 404 Not Found</string>
+    <string name="password">DE 404 Not Found</string>
+    <string name="connect">DE 404 Not Found</string>
+    <string name="follow">DE 404 Not Found</string>
+    <string name="unfollow">DE 404 Not Found</string>
+    <string name="list_of_user_doesnt_follow_back">DE 404 Not Found</string>
+    <string name="list_of_follower_doesnt_follow_back">DE 404 Not Found</string>
+    <string name="list_of_gained_followers">DE 404 Not Found</string>
+    <string name="list_of_lost_followers">DE 404 Not Found</string>
+    <string name="profile_of">DE 404 Not Found</string>
+    <string name="followers">DE 404 Not Found</string>
+    <string name="following">DE 404 Not Found</string>
+    <string name="gained_followers">DE 404 Not Found</string>
+    <string name="lost_followers">DE 404 Not Found</string>
+    <string name="followers_you_dont_follow_back">DE 404 Not Found</string>
+    <string name="follower_dont_follow_you_back">DE 404 Not Found</string>
+    <string name="advices_for_your_account">DE 404 Not Found</string>
+    <string name="disconnect">DE 404 Not Found</string>
+    <string name="bugs_questions_feedback">DE 404 Not Found</string>
+    <string name="advices">DE 404 Not Found</string>
+    <string name="follower_manager">DE 404 Not Found</string>
+    <string name="login_with_instagram">DE 404 Not Found</string>
+    <string name="server_timeout">DE 404 Not Found</string>
+    <string name="server_timeout_refresh">DE 404 Not Found</string>
+    <string name="wrong_info">DE 404 Not Found</string>
+    <string name="refreshing">DE 404 Not Found</string>
+</resources>

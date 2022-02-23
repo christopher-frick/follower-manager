@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FollowerManager</string>
+    <string name="your_account">Your account credentials aren\'t stored</string>
+    <!-- strings.xml -->
+    <string name="connect_you">Connect you with your Instagram</string>
+    <string name="username">Username</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="list_of_user_doesnt_follow_back">List of followers you don\'t follow back</string>
+    <string name="list_of_follower_doesnt_follow_back">List of followers that don\'t follow you back</string>
+    <string name="list_of_gained_followers">List of gained followers</string>
+    <string name="list_of_lost_followers">List of lost followers</string>
+    <string name="profile_of">Profile of</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="gained_followers">Gained Followers</string>
+    <string name="lost_followers">Lost Followers</string>
+    <string name="followers_you_dont_follow_back">Followers you don\'t follow back</string>
+    <string name="follower_dont_follow_you_back">Follower not following back</string>
+    <string name="advices_for_your_account">Advices for your account</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="bugs_questions_feedback">Bugs &amp; Questions &amp; Feedback</string>
+    <string name="advices">Advices</string>
+    <string name="follower_manager">Follower manager don\'t sell or share your data to other companies</string>
+    <string name="login_with_instagram">Login with your instagram account</string>
+    <string name="server_timeout">Server timed out. Try again.</string>
+    <string name="server_timeout_refresh">Server time out. Click on profile picture to try again!</string>
+    <string name="wrong_info">Wrong information. Try again!</string>
+    <string name="refreshing">Refreshing</string>
+
+
+</resources>
